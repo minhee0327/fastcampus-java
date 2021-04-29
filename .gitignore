@@ -1,2 +1,6 @@
 # Project exclude paths
 /out/
+
+# added mini's choice
+*iml*
+*.idea*
