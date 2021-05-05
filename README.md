@@ -5,8 +5,8 @@
 - 되도록 쓰기보다 머리에 넣기
 - 자주 잊거나, 잘 몰랐던 것들은 찾아보되 좋은 자료는 저장해두자.
 
-
-## Chapter02 reference
+## Reference
+### Chapter02
 - JVM Architecture 
     - https://bit.ly/3nIfWaR
     - https://2ssue.github.io/base/190509_PJI/
@@ -30,6 +30,14 @@
     
 
 
-## chapter03 
+### chapter03 
 - ch03: super, 형변환
 - ch10: 템플릿메서드
+- ch15: diamond problem (다중상속에서 발생하는 문제)
+    - https://siyoon210.tistory.com/125
+    
+### chapter04
+- ch02: equal(), toString(), hashCode()
+  - https://bit.ly/3tgD4OO
+- ch03: string, stringBuilder(), stringBuffer()
+  - https://ifuwanna.tistory.com/221
