@@ -9,7 +9,7 @@ public class MyLinkedList {
         this.count = 0;
     }
 
-    public void addElements(String data){
+    public Node addElements(String data){
         Node curNode = new Node(data);
         if(count == 0){
             head = curNode;
@@ -21,6 +21,7 @@ public class MyLinkedList {
             node.next = curNode;
         }
         count++;
+        return curNode;
     }
 
     public void insertElement(int position, String data){

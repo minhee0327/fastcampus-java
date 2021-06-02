@@ -55,10 +55,13 @@ public class MyArray {
             System.out.println("Can't remove Array. There is no element");
             return ret;
         }
+        //이동하기 전 return 값 저장
+        ret = intArr[position];
+        //이동
         for(int i = position; i < count-1; i++){
             intArr[i] = intArr[i+1];
         }
-        return intArr[position];
+        return ret;
     }
 
     public int getSize(){

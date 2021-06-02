@@ -5,17 +5,17 @@ public class Node {
     private String data;
     public Node next;
 
-    Node(){
+    public Node(){
         this.data = null;
         this.next = null;
     }
 
-    Node(String data){
+    public Node(String data){
         this.data = data;
         this.next = null;
     }
 
-    Node(String data, Node next){
+    public Node(String data, Node next){
         this.data = data;
         this.next = next;
     }
