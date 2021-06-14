@@ -41,3 +41,11 @@
   - https://bit.ly/3tgD4OO
 - ch03: string, stringBuilder(), stringBuffer()
   - https://ifuwanna.tistory.com/221
+
+### chapter06
+- ch06 stream 총정리
+  - https://futurecreator.github.io/2018/08/26/java-8-streams/
+- ch19 Decorator Pattern (Coffee 를 만들어서 데코레이터 패턴을 이해해보자)
+  - 데코레이터 패턴은 마치 마트료시카(러시아 인형)처럼 계속 씌워나가는 패턴
+  - 자바에서 입출력 스트림도 Decorator Pattern 내부적으로 구현하고있다.
+  
